@@ -1,0 +1,17 @@
+<h2 mat-dialog-title>{{data.firstName}} {{data.lastName}} <br> Id: {{data.id}}</h2>
+
+<div mat-dialog-content>
+  <ul class="contacts">
+    <li><span class="mat-body-strong">Email:</span> {{data.email}} </li>
+    <li><span class="mat-body-strong">Phone:</span> {{data.phone}} </li>
+    <li><span class="mat-body-strong">City:</span> {{data.address.city}} </li>
+    <li><span class="mat-body-strong">State:</span> {{data.address.state}} </li>
+    <li><span class="mat-body-strong">Street Address:</span> {{data.address.streetAddress}} </li>
+    <li><span class="mat-body-strong">Zip:</span> {{data.address.zip}} </li>
+  </ul>
+  <p class="mat-body-2">Description</p>
+  <p>{{data.description}}</p>
+</div>
+<div mat-dialog-actions align="end">
+  <button mat-button mat-dialog-close>Close</button>
+</div>

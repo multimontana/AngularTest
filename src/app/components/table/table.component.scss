@@ -1,0 +1,21 @@
+
+.data-table {
+  padding: 20px;
+
+  .filter {
+    max-width: 300px;
+
+    .mat-form-field {
+      font-size: 14px;
+      width: 100%;
+    }
+  }
+
+  table {
+    width: 100%;
+
+    td, th {
+      width: 25%;
+    }
+  }
+}
